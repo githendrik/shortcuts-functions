@@ -1,0 +1,16 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Grenchen",
+			"country": {
+				"code": "CH",
+				"name": "Switzerland"
+			},
+			"subdivision": {
+				"code": "SO",
+				"name": "Solothurn"
+			}
+		},
+		"timestamp": 1655217475453
+	}
+}
