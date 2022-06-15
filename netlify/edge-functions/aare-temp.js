@@ -4,8 +4,8 @@ export default async (request, context) => {
 
   if (!aareResponse.ok)
     return {
-      statusCode: incompleteGamesResponse.statusCode,
-      body: incompleteGamesResponse.statusText,
+      statusCode: aareResponse.statusCode,
+      body: aareResponse.statusText,
     };
 
   const aareTemp = await aareResponse
