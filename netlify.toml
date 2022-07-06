@@ -1,3 +1,7 @@
 [[edge_functions]]
 path = '/aare.json'
 function = 'aare-temp'
+
+[[edge_functions]]
+path = '/kantine'
+function = 'kantine-menu'

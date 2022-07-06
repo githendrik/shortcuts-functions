@@ -1,16 +1,16 @@
 {
 	"geolocation": {
 		"data": {
-			"city": "Grenchen",
+			"city": "Bern",
 			"country": {
 				"code": "CH",
 				"name": "Switzerland"
 			},
 			"subdivision": {
-				"code": "SO",
-				"name": "Solothurn"
+				"code": "BE",
+				"name": "Bern"
 			}
 		},
-		"timestamp": 1655217475453
+		"timestamp": 1657099982233
 	}
 }
