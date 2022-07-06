@@ -1,5 +1,5 @@
 [[edge_functions]]
-path = '/aare.json'
+path = '/aare'
 function = 'aare-temp'
 
 [[edge_functions]]
