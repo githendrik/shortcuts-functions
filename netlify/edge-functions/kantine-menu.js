@@ -20,9 +20,9 @@ export default async (request, context) => {
   })
 
   const resp = `
-   - ${dishes[0]}.
-   - ${dishes[1]}.
-   - ${dishes[2]}.
+   - ${dishes[0]}
+   - ${dishes[1]}
+   - ${dishes[2]}
   `
 
   return new Response(resp);
