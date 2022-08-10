@@ -16,13 +16,20 @@ export default async (request, context) => {
   const dishes = [...doc.querySelectorAll('.menu-item')].map(d => {
     const where = d.querySelector('.menuline').innerText;
     const what = d.querySelector('.menu-title').innerText;
-    return `${where}: ${what}`
+
+    const kcal = d.querySelector('.nutrition-table td') && d.querySelector('.nutrition-table td').innerText;
+
+    console.log(`${what} - ${kcal}`);
+
+    return `${where}: ${what} (${kcal}kcal)`
   })
 
   const resp = `
-   - ${dishes[0]}
-   - ${dishes[1]}
-   - ${dishes[2]}
+   ${dishes[0]}
+   
+   ${dishes[1]}
+   
+   ${dishes[2]}
   `
 
   return new Response(resp);
