@@ -21,7 +21,12 @@ export default async (request, context) => {
 
     console.log(`${what} - ${kcal}`);
 
-    return `${where}: ${what} (${kcal}kcal)`
+    let kcalString = '';
+    if (kcal) {
+      kcalString = ` (${kcal}kcal)`
+    }
+
+    return `${where}: ${what}${kcalString}`
   })
 
   const resp = `
